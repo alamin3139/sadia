@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+
+ 
+.testimonial-item .info   a{
+    color:red
+}
+.container .testimonial-item .img-thumb img{
+    border:5px solid crimson;
+    transition: all 0.3s ease;
+   
+}
+#testimonial{
+ 
+text-align: center;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;;
+}
+
+.section-padding{
+    padding:60px 0px ;
+}
+
+
+
+
+
+
+.img-thumb{
+    text-align: center;
+    margin: 15px;;
+}
+
+.img-thumb img{
+    width:inherit !important;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+}
+
+
+ 
+
+.testimonial-item{
+    background-color: #222;
+    border-radius:10px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Dancing Script', cursive;
+}
+.testimonial-item:hover{
+    background: red;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+.testimonial-item:hover  .img-thumb img{
+    border-color: #fff;
+}
+
+.testimonial-item:hover .star-icon span{
+    color:#fff;
+}
+
+.testimonial-item:hover .info  a{
+    color:#fff;
+    font-weight: 400;
+}
+
+
+
+.content .descreption p{
+    color:#fff;
+    margin:10px;
+    letter-spacing: 4px;
+    font-size: 18px;
+
+}
+
+.star-icon span{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+#testimonial .owl-carousel  .owl-dot{
+    outline: none;
+    transition:  all 0.3s ease;
+}
+#testimonial .owl-carousel  .owl-dot span{
+
+     color:#fff;
+     background:black;
+     border:2px solid red;
+     transition:  all 0.3s ease;
+     
+}
+
+#testimonial .owl-theme .owl-dots .owl-dot:hover span,
+#testimonial .owl-theme .owl-dots .owl-dot.active span{
+     background: red
+     
+}
+
+.owl-dot.active span {
+    width: 35px !important;
+    border-radius: 14px;
+    border: none !important;
+    outline: none !important;
+}
+
+
+@media  screen and(max-width:1199.98px){
+    .container{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
